@@ -1,0 +1,40 @@
+.container
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.add_form, .view_form, .edit_form
+{
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#form_btn {
+    width: 200px;
+}
+
+#firstName, #lastName 
+{
+    text-transform: capitalize;
+}
+
+a
+{
+    text-align: right;
+}
+
+.table 
+{
+    width: 100%;    
+}
+
+#btn-add
+{
+    float:right;
+}
